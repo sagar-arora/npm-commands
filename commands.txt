@@ -1,0 +1,53 @@
+Npm useful commands:
+
+check version
+$npm -v or $npm --version
+
+Package.json file is created for every node package. It holds dependencies.
+
+$npm init // this will create the package.json file and initialize the file with info.
+
+$npm init -y or $npm init --yes
+$ npm config set init-author-name "Sagar Arora"
+$ npm set init-lice
+$ npm config get __ or $npm get __
+
+$npm install lodash --save // it saves it to package.json as a dependency. It created node_modules folder and added loadash.
+$npm install lodash@4.73 -- version
+$npm 
+
+8.2.6
+
+6 -- patch version
+2 -- minor version - new features, doesn't break the api.
+8 -- major version - major changes breaks the api.
+
+Why --save flag?
+----
+
+Dev Dependencies:
+npm install gulp gulp-sass --save-dev
+
+
+npm uninstall gulpp-sass --save-dev or npm remove gulp-sass --save-dev
+
+
+What is difference b/w dev dependencies and simple dependencies?
+
+
+global modules 
+$npm install -g nodemon
+
+$npm root -g // to see where the global node modules are.
+
+$npm remove -g nodemon
+
+$npm list // to list all the modules.
+
+$npm list --depth 0 
+
+Scripts:
+
+
+
+
